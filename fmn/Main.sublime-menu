@@ -1,0 +1,22 @@
+[
+     {
+          "id": "preferences",
+          "children":
+          [
+               {
+                    "id": "package-settings",
+                    "children":
+                    [
+                         {
+                              "caption": "File mailing notification",
+                              "children":
+                              [
+                                   { "command": "open_file", "args": {"file": "${packages}/fmn/fmn.sublime-settings"}, "caption": "Settings – Default" }
+                              ]
+                         }
+                    ]
+
+               }
+          ]
+     }
+]
