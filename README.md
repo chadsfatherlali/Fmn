@@ -3,11 +3,6 @@ Fmn
 
 File mail notifier: Notificador por email para cuentas (@gmail) de cambios en archivos.
 
-Fmn
-===
-
-File mail notifier: Notificador por email para cuentas (@gmail) de cambios en archivos.
-
 Configuración:
 ---------------
 
