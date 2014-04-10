@@ -6,6 +6,8 @@ File mail notifier: Notificador por email para cuentas (@gmail) de cambios en ar
 Configuración:
 ---------------
 
+Preferences => Package Settings => File mailing notification => Settings default
+
 "notificarenguardado" => (bool) => desactiva o activa el envío del correo.
 
 ```html
