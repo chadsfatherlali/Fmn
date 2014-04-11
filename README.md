@@ -1,5 +1,5 @@
-Fmn
-===
+Fmn: Notificador por correo de cambios en ficheros en cuentas (@gmail).
+=======================================================================
 
 ```html
 fmn => Sublime Text 2
