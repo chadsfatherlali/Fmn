@@ -3,17 +3,18 @@
      "usuario": "ssanchez@telecoming.com",
      "password": "1715anni",
      "destinatarios": [
-          "ssanchez@telecoming.com", 
+          "ssanchez@telecoming.com",
           "dmurillo@telecoming.com", 
           "chadsfather@gmail.com", 
           "rlopez@telecoming.com", 
           "slozano@telecoming.com", 
-          "azarzalejo@telecoming.com"    
+          "azarzalejo@telecoming.com"
      ],
-     "msg": "ha modificado 'commons.js' UPDATE !!!!",
+     "msg": "cambios en un fichero commmon UPDATE !!!!",
      "sujeto": "Cambio en el common.js",
      "ficheros": [
-          "/Volumes/C/proyecto/ttg-svnrepo/trunk/dptografico/landings/plantillas/common/common.js"
+          "/Volumes/C/proyecto/ttg-svnrepo/trunk/dptografico/landings/plantillas/common/common.js",
+          "/Volumes/C/proyecto/ttg-svnrepo/trunk/dptografico/landings/plantillas/common/common.css"
      ]
 
 }

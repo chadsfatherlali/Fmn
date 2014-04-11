@@ -7,8 +7,9 @@ import getpass
 from email.MIMEMultipart import MIMEMultipart
 from email.MIMEText import MIMEText
 
-class ExampleCommand(sublime_plugin.EventListener):
+class FmnCommand(sublime_plugin.EventListener):
      settings = sublime.load_settings("fmn.sublime-settings")
+
 
      def on_post_save(self, view):
           file = view.file_name()
@@ -20,7 +21,7 @@ class ExampleCommand(sublime_plugin.EventListener):
                msg["Subject"] = self.settings.get("sujeto")
                msg["From"] = self.settings.get("usuario")
                msg["To"] = ", ".join(self.settings.get("destinatarios"))
-               msg.attach(MIMEText(self.settings.get("usuario") + ": " + self.settings.get("msg"), "plain"))
+               msg.attach(MIMEText(self.settings.get("usuario") + ": " + self.settings.get("msg") + "\nFichero: " + file, "plain"))
 
                server = smtplib.SMTP("smtp.gmail.com:587")  
                server.ehlo()
