@@ -3,7 +3,6 @@ Fmn
 
 fmn => Sublime Text 2
 fmn3 => Sublime Text 3
-----------------------
 
 File mail notifier: Notificador por email para cuentas (@gmail) de cambios en archivos.
 
