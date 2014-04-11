@@ -1,14 +1,14 @@
 {
      "notificarenguardado": true,
-     "usuario": "ssanchez@telecoming.com",
-     "password": "1715anni",
+     "usuario": "mail@gmail.com",
+     "password": "pass",
      "destinatarios": [
-          "ssanchez@telecoming.com",
+          "correo@mail.com",
      ],
      "msg": "cambios en un fichero commmon UPDATE !!!!",
      "sujeto": "Cambio en ficheros commons",
      "ficheros": [
-          "/Volumes/C/proyecto/ttg-svnrepo/trunk/dptografico/landings/plantillas/common/common.js",
-          "/Volumes/C/proyecto/ttg-svnrepo/trunk/dptografico/landings/plantillas/common/common.css"
+          "/camino/al/fichero/common.js",
+          "/camino/al/fichero/common.css"
      ]
 }
